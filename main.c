@@ -19,6 +19,7 @@ int main(void)
 {
     int count = 1;
 	int hello;
+	int ok;
     /* set LED0 pin mode to output */
     rt_pin_mode(LED0_PIN, PIN_MODE_OUTPUT);
 
